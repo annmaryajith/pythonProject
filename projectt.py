@@ -1,0 +1,5 @@
+p=int(input("Enter principal amount: "))
+r=int(input("Enter rate: "))
+t=int(input("Enter time: "))
+CI = p * (pow((1 + r / 100),t))
+print("Compound interest: 2",CI)
